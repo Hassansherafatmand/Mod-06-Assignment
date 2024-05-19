@@ -1,0 +1,31 @@
+ if (title && details) {
+      console.log(title, details);
+      fetch("http://localhost:8000/courses", {
+        method: "POST",
+        headers: { "Contetn-type": "application/json" },
+        body: JSON.stringify({ title, details, category }),
+      }).then(() => history.push("/"));
+    }
+
+
+     if (title && details) {
+      console.log(title, details);
+      fetch("http://localhost:8000/courses", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title, details, category }),
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to create course!"); 
+          }
+          return response.json(); // Parse the response as JSON if the response is ok
+        })
+        .then((data) => {
+          console.log("Course created successfully:", data); // Log the created course data
+          navigate("/"); // Redirect to the root path using navigate
+        })
+        .catch((error) => {
+          console.error("Error creating course:", error); // Log any errors
+          // Handle errors gracefully (e.g., display an error message to the user)
+        });

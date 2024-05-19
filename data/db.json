@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "title": "PHP Web Development",
+      "details": "Learn the basics and advanced concepts of PHP, a popular scripting language for web development. This course covers everything from basic syntax to advanced topics like object-oriented programming and MySQL integration.",
+      "category": "Web Development",
+      "id": "1"
+    },
+    {
+      "title": "C++ Programming",
+      "details": "This course provides a comprehensive introduction to C++ programming. It covers fundamental programming concepts, data structures, algorithms, and more, making it ideal for beginners and experienced programmers alike.",
+      "category": "Programming",
+      "id": "2"
+    },
+    {
+      "title": "Advanced JavaScript",
+      "details": "Master JavaScript with this advanced course. Explore topics such as ES6+ features, asynchronous programming, and front-end frameworks like React and Angular.",
+      "category": "JavaScript",
+      "id": "3"
+    },
+    {
+      "title": "Introduction to Figma",
+      "details": "Learn the basics of Figma, a powerful design tool used for creating user interfaces and web designs. This course covers essential features, collaborative design techniques, and how to create effective UI/UX designs.",
+      "category": "Front-end Design",
+      "id": "4"
+    },
+    {
+      "id": "0bc9",
+      "title": "Office365",
+      "details": "awdawkjbdwakjbdnwanbawfn aw awfn lawrnwalfn awfawknf wa",
+      "category": "Front-end Design"
+    }
+  ]
+}
